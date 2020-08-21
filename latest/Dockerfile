@@ -2,7 +2,7 @@
 
 FROM ubuntu:latest
 
-LABEL maintainer="plesk-dev-leads@plesk.com"
+LABEL maintainer="manuel.gonzalez.freelancer@gmail.com"
 
 ARG LICENSE
 ARG AI_HOST=autoinstall.plesk.com
