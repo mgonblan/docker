@@ -1,6 +1,6 @@
 # Plesk the latest available version container
 
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
 LABEL maintainer="plesk-dev-leads@plesk.com"
 
@@ -39,7 +39,8 @@ RUN apt-get update \
         --install-component webservers \
         --install-component nginx \
         --install-component mysqlgroup \
-        --install-component php7.3 \
+        --install-component mssql \
+        --install-component php7.4 \
         --install-component l10n \
         --install-component heavy-metal-skin \
         --install-component git \
